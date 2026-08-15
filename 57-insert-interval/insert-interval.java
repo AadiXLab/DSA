@@ -14,7 +14,7 @@ class Solution {
             }
         }
         result.add(newInterval);
-        Collections.sort(result, (a, b) -> Integer.compare(a[0], b[0]));
+        Collections.sort(result, (a, b) -> a[0] - b[0]);
 
         return result.toArray(new int[result.size()][]);
     }
