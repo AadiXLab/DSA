@@ -11,6 +11,8 @@ class Solution {
                 int temp = max;
                 max = min;
                 min = temp;
+                //Why do we swap?
+                //Because multiplying by a negative reverses the relationship.
             }
 
             max = Math.max(nums[i], max * nums[i]);
