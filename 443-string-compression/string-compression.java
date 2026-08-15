@@ -22,9 +22,9 @@ class Solution {
             // Write the count if greater than 1
             if (count > 1) {
 
-                String str = String.valueOf(count);
+                String str = String.valueOf(count); // convert int to string
 
-                for (char c : str.toCharArray()) {
+                for (char c : str.toCharArray()) { // convert string toarray ex: 12-> 1,2
                     chars[write] = c;
                     write++;
                 }
