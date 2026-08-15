@@ -10,7 +10,10 @@ class Solution {
             }
 
             // If digit is 9, make it 0 and carry to the previous digit
-            digits[i] = 0;
+            if(digits[i] == 9){
+                digits[i] = 0;
+
+            }
         }
 
         // If all digits were 9, create a new array
