@@ -7,7 +7,6 @@ class Solution {
             totalSum += nums[i];
         }
         //int rightSum = 0;
-        //int currSum=0;
         for(int i =0; i<n; i++){
             if(i == 0){ // ignore 1st elemnet to be added into leftsum
                 leftSum = 0;
