@@ -1,8 +1,9 @@
 class Solution {
 
+    int count =0;
     public int countSubstrings(String s) {
 
-        int count = 0;
+        //int count = 0; ALSO CORRECT
 
         for (int i = 0; i < s.length(); i++) {
 
